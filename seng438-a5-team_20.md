@@ -2,12 +2,12 @@
 
 **Lab. Report \#5 – Software Reliability Assessment**
 
-| Group \#:       |   |
-|-----------------|---|
-| Student Names:  |   |
-|                 |   |
-|                 |   |
-|                 |   |
+| Group 20:      |
+| -------------- |
+| Jacob Adeyemo (30046186) |
+| Markosch "Godwin" Saure (30088690) |     
+| Kundai Dziwa (30090173) | 
+| Mohammed Kabir (30092222) | 
 
 # Introduction
 
