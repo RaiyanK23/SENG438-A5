@@ -37,10 +37,13 @@ Disadvantages on RGT:
 
 # Assessment Using Reliability Demonstration Chart 
 MTTFmin:
+<img width="712" alt="Screen Shot 2023-04-08 at 1 45 32 AM" src="https://user-images.githubusercontent.com/70219463/230710266-cb8fd9a6-ec74-4e43-9f1e-343e574a4c14.png">
 
 Half MTTFmin:
+<img width="695" alt="Screen Shot 2023-04-08 at 1 45 53 AM" src="https://user-images.githubusercontent.com/70219463/230710307-6a0ed4e8-b2ce-4cc2-9241-4c2f266e88c9.png">
 
 Twice MTTFmin:
+<img width="694" alt="Screen Shot 2023-04-08 at 1 46 21 AM" src="https://user-images.githubusercontent.com/70219463/230710321-4f9e2abc-5d1a-49e8-9714-bdfeb459d16f.png">
 
 Explaining and justificating how you decide the MTTFmin:
 To determine the MTTF min using the RDC method, we defined the Failure Intensity Objective (FIO), which is the maximum allowable failure rate for the software. Then we found the point where the RDC curve intersects the FIO line represents the MTTF min for the software. This is the minimum mean time to failure that the software must achieve to meet the required level of reliability. If the RDC curve is above that imaginary FIO line at all times, then the software has achieved the required level of reliability and is considered reliable enough for use. If the RDC curve dips below the FIO line at any point, then the software has failed to meet the required level of reliability, and corrective actions must be taken to improve the software's reliability.
