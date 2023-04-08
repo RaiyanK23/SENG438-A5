@@ -13,9 +13,27 @@
 
 The lab aimed to familiarize us with reliability assessment techniques such as C-SFRAT and the Reliability Demonstration Chart, as well as using Excel to analyze failure data. We will also have the opportunity to learn about reliability growth testing, which helps identify changes in a product's reliability over time. By examining failure data, we will determine how to prevent future failures. Through this lab, integration test data will be analyzed using both reliability growth testing and the Reliability Demonstration Chart, which allowed us to create models and plots for calculating MTTF, failure intensity, and software reliability. Also, each section of this lab serves the purpose of enhancing our understanding of reliability analysis and measurement, and we hope to learn how reliability certification can determine software quality. Ultimately, the lab will help us in recognizing when testing is necessary during software development.
 
-# 
-
 # Assessment Using Reliability Growth Testing 
+
+The geometric (G) and IFR generalized Salvia & Bollinger (IFRGSB) models were used to graph the data as these were the only hazard functions that were fully functioning when using our chosen dataset. When comparing the two, the prediction of model G fit closer to the failure data (which had a somewhat S shape) while model IFRGSB was more linear overall.
+
+Using Excel, Laplace calculations were done on the failure data to determine the useful range of data to use. From the sheet, around 80% of the data was used, mostly excluding the outer boundaries of the failure data (e.g. failure happening closer to the start and end of the program running, with some in between).
+
+Graphs for the failure rate and reliability of the SUT can be seen below:
+
+![image](https://user-images.githubusercontent.com/25757265/230705662-bf1e7969-cc08-4e4d-88ef-91502537e474.png)
+
+![image](https://user-images.githubusercontent.com/25757265/230705676-f9159af0-c177-4b9d-a2aa-0fe377bf14e4.png)
+
+Generally, if we see that the SUT is below or at the threshold of the target failure rate, the system is assumed to be functioning and operating well and will not require any troubleshooting within the codebase. However, if it is higher, it may be determined that the system will require further action on bug-fixing before deployment and to avoid further failures.
+
+Advantages on RGT:
+- helps determine reliability issues by using both failure count and inter-failure times
+- helps determine the overall reliability of the system before deployment to users
+
+Disadvantages on RGT:
+- time and cost-expensive
+- requires a large and accurate amount of data to be useful
 
 # Assessment Using Reliability Demonstration Chart 
 
