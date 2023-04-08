@@ -25,6 +25,20 @@ The lab aimed to familiarize us with reliability assessment techniques such as C
 
 # Discussion on Similarity and Differences of the Two Techniques
 
+Reliability Growth Analysis and Reliability Demonstration Chart are two system reliability techniques that can provide crucial insights about the Software Under Test (SUT) and its testing. Their similaririties include:
+
+* Reliability Growth Analysis and Reliability Demonstration Chart are system reliability techniques.
+* Both techniques rely on inter-failure times and MTTF.
+* The same dataset of failures was used as input for both techniques.
+* Both techniques were applied to test the same system.
+
+Both Reliability Growth Analysis and Reliability Demonstration Chart interpret the data differently to develop distinct reliability plots for the system. Their differences include:
+
+* Reliability Growth Analysis and Reliability Demonstration Chart interpret data differently to generate reliability plots for the system.
+* Reliability Growth Analysis uses failure count and inter-failure times, while RDC only uses inter-failure times.
+* Reliability Growth Analysis employs exponential and logarithmic Poisson models to estimate λ/λF ratios and track failure intensity trends.
+* RDC uses Discrimination Ratio, Consumer Risk, and Developer Risk to evaluate the acceptability of the SUT.
+
 # How the team work/effort was divided and managed
 
 # 
