@@ -43,9 +43,10 @@ Both Reliability Growth Analysis and Reliability Demonstration Chart interpret t
 
 The team chose to collaborate on the lab project. We began first by installing the required tools. Together, we learned how to operate the tools and decided to use C-SFRAT because it was compatible with most laptops. However, Jacob and Kundai were not able to run the software because they both had Macbooks so Mohammed and Godwin worked on Part 1 using C-SFRAT and SRTAT while Kundai and Jacob worked on Part 2 using the RDC excel chart. Once all the necessary components were compiled and the graphs were created, the team collaborated to write the report and discuss their individual tools' functionality and results.
 
-
 # Difficulties encountered, challenges overcome, and lessons learned
 
 This lab was an interesting one, there were challenges encountered such as figuring out how to make the RDC Excel sheet take in more than 16 values, and modifying the data to fit the tools which took several hours. In addition, the SRTAT RDC only showed one failure data point which required assumptions to calculate the MTTFmin. Furthermore, the Reliability Growth Analysis had its own challenges such as CSFRAT being quite slow and the MTTF/MTBF calculation being complicated. It is important to note that while these tools can provide accurate results, they are only a simulation and the SUT needs to be thoroughly tested in reality. The tools cannot always be relied upon as the data is calculated and approximated within each tool, and a high learning curve and background knowledge is required for their functionality and result interpretation.
 
 # Comments/feedback on the lab itself
+
+The setup for the lab and a handful of the tools being used in the lab were found to be slightly problematic. In the sense that some people hand hinderances which slowed down the implementation process. On one hand, some of the issues that arised caused us to slow down and learn how the systems work on a more clear box level in order to solve them. However, it did have a small impact on the effeciency of the team getting the work done for the lab and learning what truly needed to be learned. 
