@@ -19,9 +19,9 @@ The lab aimed to familiarize us with reliability assessment techniques such as C
 
 # Assessment Using Reliability Demonstration Chart 
 
-# 
-
 # Comparison of Results
+In the two methods which we collectively used to obtain an estimated MTTF for better reliability knowledge, we found results that were very similar. Both methods brought us to roughly and reasonably the same result for the MTTF of the system.
+The Reliability Demonstration Chart (RDC) is typically performed towards the end of the growth testing period to confirm that the software has achieved a specific reliability level, called the Failure Intensity Objective (FIO). During this stage, the software code is usually frozen to prevent further changes that could affect its reliability.
 
 # Discussion on Similarity and Differences of the Two Techniques
 
