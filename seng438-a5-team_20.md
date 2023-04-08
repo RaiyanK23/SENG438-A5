@@ -36,6 +36,15 @@ Disadvantages on RGT:
 - requires a large and accurate amount of data to be useful
 
 # Assessment Using Reliability Demonstration Chart 
+MTTFmin:
+
+Half MTTFmin:
+
+Twice MTTFmin:
+
+Explaining and justificating how you decide the MTTFmin:
+To determine the MTTF min using the RDC method, we defined the Failure Intensity Objective (FIO), which is the maximum allowable failure rate for the software. Then we found the point where the RDC curve intersects the FIO line represents the MTTF min for the software. This is the minimum mean time to failure that the software must achieve to meet the required level of reliability. If the RDC curve is above that imaginary FIO line at all times, then the software has achieved the required level of reliability and is considered reliable enough for use. If the RDC curve dips below the FIO line at any point, then the software has failed to meet the required level of reliability, and corrective actions must be taken to improve the software's reliability.
+
 Advantages of RDC testing:
 - The primary advantage of RDC testing is that it provides confirmation that the software has achieved the required level of reliability, as specified by the Failure Intensity Objective (FIO).
 - RDC testing provides an objective and standardized way to measure the software's reliability, which can be compared across different software products and versions.
