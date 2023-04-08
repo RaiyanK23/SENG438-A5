@@ -36,6 +36,15 @@ Disadvantages on RGT:
 - requires a large and accurate amount of data to be useful
 
 # Assessment Using Reliability Demonstration Chart 
+Advantages of RDC testing:
+- The primary advantage of RDC testing is that it provides confirmation that the software has achieved the required level of reliability, as specified by the Failure Intensity Objective (FIO).
+- RDC testing provides an objective and standardized way to measure the software's reliability, which can be compared across different software products and versions.
+- A cost-effective way to verify the reliability of the software before it is released, as it requires fewer resources than other forms of testing.
+
+Disadvantages of RDC testing:
+- RDC testing is typically performed towards the end of the software development process, which means that any defects or issues that are discovered may be difficult or expensive to fix.
+- Altogether this method provides limited feedback on the root causes of defects and issues, making it more difficult to eventually improve the software's reliability.
+- RDC testing is most applicable to software that is expected to have low failure rates
 
 # Comparison of Results
 In the two methods which we collectively used to obtain an estimated MTTF for better reliability knowledge, we found results that were very similar. Both methods brought us to roughly and reasonably the same result for the MTTF of the system.
